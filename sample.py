@@ -10,6 +10,10 @@ def extract_text_from_jpg():
     path_to_tesseract = "C:/Program Files/Tesseract-OCR/tesseract.exe"
     image_path = "D:/pycharm_dir/sample/Combine 2023 paper &ans key_7.jpg"
 
+    # image_path = input("Enter jpg File path: ")
+
+
+
     # Opening the image & storing it in an image object
     img = Image.open(image_path)
 
